@@ -1,0 +1,3 @@
+SELECT * FROM table1
+UNION
+SELECT * FROM table2

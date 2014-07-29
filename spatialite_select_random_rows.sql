@@ -1,0 +1,1 @@
+SELECT * FROM ras_bldg3d ORDER BY RANDOM() LIMIT 12;

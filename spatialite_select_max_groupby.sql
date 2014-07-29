@@ -1,0 +1,3 @@
+SELECT BLDGID, MAX(Height), Stories, GRID_ID
+FROM lu_bldg3d
+GROUP BY BLDGID;

@@ -1,0 +1,1 @@
+ALTER TABLE ras_geophotos ADD COLUMN gridid text;
