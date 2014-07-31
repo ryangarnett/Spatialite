@@ -1,0 +1,6 @@
+UPDATE cdn_urban_pnts
+SET dmax = 
+( SELECT Max(cdn_cities_weather.dmax)
+	FROM cdn_cities_weather
+WHERE cdn_cities_weather.gid = cdn_urban_pnts.pkuid
+GROUP BY cdn_cities_weather.city)
