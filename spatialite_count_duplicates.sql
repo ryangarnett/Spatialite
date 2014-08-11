@@ -1,5 +1,5 @@
-SELECT segid, count(*)
+SELECT segid, count(segid)
 FROM bus_routes
 GROUP BY segid
-HAVING count(*) >1
-ORDER BY count(*);
+HAVING count(segid) >1
+ORDER BY count(segid);
