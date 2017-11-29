@@ -1,0 +1,3 @@
+update poly_43J_22
+set nodecnt = st_npoints(geom)
+where layer = 'BUILDING_OUTLINE'
